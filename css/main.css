@@ -167,6 +167,7 @@ html {
   width: 50%; }
 
 .box_content {
+  position: relative;
   margin-top: 50px;
   margin-left: 45px;
   z-index: 5; }
@@ -226,14 +227,21 @@ html {
   background-position: -340px -430px; }
 
 .like {
-  color: #fff;
-  margin-left: 30%; }
-
-.box_sign .like {
-  margin-left: 60%; }
+  position: absolute;
+  top: 88%;
+  right: 20%;
+  color: #fff; }
+  .like:hover {
+    color: blue; }
 
 .like_active {
   color: #ff000e; }
+
+.box_clients .like {
+  top: 90%; }
+
+.box_start .like {
+  top: 89%; }
 
 /* ============ DETAILS ============ */
 .details {
@@ -275,10 +283,10 @@ html {
 
 /* ============ OFFER ============ */
 .offer {
-  background: url(../img/car.jpg);
+  background: url(../img/car.jpg) no-repeat;
   width: 100%;
-  height: 100%;
-  background-size: 170%;
+  height: 95vh;
+  background-size: cover;
   background-position: 40% 80%; }
 
 .offer_box {
@@ -299,7 +307,7 @@ html {
   font-size: 3.75rem;
   font-weight: 300;
   max-width: 465px;
-  margin-top: 39%;
+  margin-top: 34vw;
   margin-bottom: 45px; }
 
 .offer_text {
@@ -541,6 +549,7 @@ html {
 
 /* ============ FORM ============ */
 .email {
+  position: relative;
   margin-bottom: 15px;
   max-width: 470px; }
 
@@ -555,6 +564,9 @@ html {
   outline: none; }
 
 .email_btn {
+  position: absolute;
+  bottom: 0;
+  right: -10px;
   border: none;
   -webkit-border-radius: 2px;
           border-radius: 2px;

@@ -1,5 +1,14 @@
-@media only screen and (max-width: 1281px) {
-  /* hi-res laptops and desktops */ }
+@media only screen and (max-width: 2560px) {
+  .email input {
+    max-width: 18vw; } }
+
+@media only screen and (max-width: 1920px) {
+  .email input {
+    max-width: 24vw; } }
+
+@media only screen and (max-width: 1280px) and (max-height: 600px) {
+  .offer_title {
+    margin-top: 14vw; } }
 
 @media only screen and (max-width: 1024px) {
   .smartphone {
@@ -12,15 +21,40 @@
   .box_great .box_text,
   .box_start .box_text {
     margin-bottom: 10px; }
-  .box_start .like {
-    margin-left: 20%; } }
+  .box_text {
+    font-size: 0.9rem; } }
 
 @media only screen and (max-width: 986px) {
   .descr_text_left, .descr_text_right {
-    max-width: 460px;
-    margin-left: 10px; }
+    max-width: 460px; } }
+
+@media only screen and (max-width: 980px) {
+  .head_text {
+    font-size: 1rem; } }
+
+@media only screen and (max-width: 875px) {
+  .description_head {
+    margin-bottom: 30px; }
+  .box_gesign .box_text,
+  .box_picture .box_text {
+    margin-bottom: 20px; }
   .box_clients .like {
-    margin-left: 20%; } }
+    right: 10%; }
+  .box_start .like,
+  .box_sign .like {
+    top: 90%;
+    right: 10%; } }
+
+@media only screen and (max-width: 800px) {
+  .box_content {
+    margin-top: 20px;
+    margin-left: 25px; }
+  .box_start .box_text {
+    margin-bottom: 20px; }
+  .offer {
+    background-size: 230%; }
+  .offer_text {
+    font-size: 1rem; } }
 
 @media only screen and (max-width: 768px) {
   .smartphone {
@@ -54,14 +88,20 @@
   .big_box,
   .box_start {
     width: 50%; }
+  .box_start .box_title {
+    margin-bottom: 30px; }
   .box_start .box_text {
     margin-bottom: 40px; }
-  .box_start .like {
-    margin-left: 50%; }
-  .box_sign .like {
-    margin-left: 50%; }
+  .box_text {
+    font-size: 1rem; }
+  .offer {
+    background-size: 190%; }
+  .offer_text {
+    font-size: 1rem; }
   .email {
-    width: auto; } }
+    width: auto; }
+  .email_btn {
+    right: 5px; } }
 
 @media only screen and (max-width: 641px) {
   /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */ }
@@ -91,8 +131,6 @@
   .box_great,
   .box_start {
     display: none; }
-  .box_clients .like {
-    margin-left: 55%; }
   .details {
     margin-bottom: 50px; }
   .details_items {
@@ -106,8 +144,12 @@
   .details_box_text {
     max-width: 100%;
     margin-bottom: 15px; }
+  .offer {
+    height: 100%; }
   .offer_box {
-    margin-bottom: 70px; }
+    margin-bottom: 0; }
+  .offer_link {
+    margin-bottom: 30px; }
   .offer_title {
     margin-top: 10%;
     font-size: 2.5rem; }
@@ -154,7 +196,7 @@
   .feature_left {
     max-width: 100%; }
   .feature_right {
-    margin-top: 0; }
+    margin-top: 25px; }
   .feature_left {
     margin-top: 50px;
     margin-bottom: 0; }
@@ -162,12 +204,27 @@
   .email_btn {
     width: 100%; }
   .email_btn {
-    margin-left: 0;
-    margin-top: -2px;
+    width: 150px;
+    right: 30%;
+    bottom: -45px;
     height: 40px; }
   .email_check,
   .email input {
-    font-size: 2rem; } }
+    font-size: 2rem; }
+  .footer_spam {
+    margin-top: 45px; } }
+
+@media only screen and (max-width: 360px) {
+  .email_btn {
+    right: 30%; } }
 
 @media only screen and (max-width: 320px) {
-  /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */ }
+  /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
+  .offer {
+    background-size: 230%; }
+  .price_text {
+    margin-bottom: 15px; }
+  .price_btn_popular {
+    margin-bottom: 15px; }
+  .email_btn {
+    right: 25%; } }
