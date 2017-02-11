@@ -579,16 +579,15 @@ html {
 	background-color: #f6f7fa;
 	border-radius: 2px;
 	border: none;
-	width: 31vw;
+	max-width: 31vw;
 	height: 58px;
 	font-size: e(50);
 	outline: none;
 }
 
 .email_btn {
-	position: absolute;
+	position: relative;
 	bottom:0;
-	right: -10px;
 	border:none;
 	border-radius: 2px;
 	background-color: #82ca9c;
