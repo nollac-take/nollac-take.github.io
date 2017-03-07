@@ -125,8 +125,13 @@
   .email_btn {
     right: 0; } }
 
-@media only screen and (max-width: 641px) {
-  /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */ }
+@media only screen and (max-width: 574px) {
+  .box_sign,
+  .box_start {
+    display: none; }
+  .price_btn {
+    line-height: 0.3;
+    padding: 20px 30px; } }
 
 @media only screen and (max-width: 425px) {
   .head {
@@ -153,6 +158,8 @@
   .box_great,
   .box_start {
     display: none; }
+  .box_sign {
+    display: block; }
   .details {
     margin-bottom: 50px; }
   .details_items {
